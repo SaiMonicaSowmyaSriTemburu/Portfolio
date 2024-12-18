@@ -1,0 +1,27 @@
+.customNavbar {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+.list {
+    
+    display: flex;
+    /* text-align: right; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #010101;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.unorderedList {
+    display: flex;
+    width: 400px;
+    margin: 0px auto;
+    font-size: 14px;
+    list-style: none;
+    color: black;
+    /* float: right; */
+}

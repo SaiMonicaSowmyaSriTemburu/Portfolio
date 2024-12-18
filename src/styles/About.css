@@ -1,0 +1,64 @@
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;
+}
+
+.myName {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #010101;
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro {
+    margin: 3rem auto 0 auto;
+    max-width: 80rem;
+}
+
+.text {
+    color: #010101;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+    font-family: "Baumans", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+    display: block;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    padding: 0.6em 1.2em;
+    animation: jump 0.5s infinite alternate;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }

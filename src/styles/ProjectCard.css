@@ -1,0 +1,36 @@
+.projectCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(30% - 20px);
+  margin: 10px;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectCard:hover {
+  transform: translateY(-15px);
+}
+
+.projectCardImage {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.projectCardContent {
+  padding: 10px;
+}
+
+.projectCardTitle {
+  font-size: 1rem;
+  margin: 0 0 8px;
+}
+
+.projectCardDescription {
+  font-size: 0.9rem;
+  margin: 0;
+}

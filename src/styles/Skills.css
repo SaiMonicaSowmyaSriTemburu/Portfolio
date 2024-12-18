@@ -1,0 +1,54 @@
+.cloudContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.tagCloud {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 10px;
+}
+
+.tagCloud:hover {
+    transform: scale(1.2);
+}
+
+.wordCloud {
+    animation: float 3s ease-in-out infinite alternate;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    animation: jump 0.5s infinite alternate;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-15px, 15px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
